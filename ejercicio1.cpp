@@ -115,6 +115,7 @@ int main()
 
         cout << "Gracias por su compra";
         break;
+     
     /*
         if (genero == 1)
         {
@@ -177,7 +178,7 @@ int main()
     case 3:
         break;
 
-        
+
 */
     default:
         break;
