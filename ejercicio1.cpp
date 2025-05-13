@@ -48,13 +48,14 @@ int main()
     cout << "1. Hombre             \n";
     cout << "2. Mujer              \n";
     cout << "3. Mostrar todo       \n";
+    cout << "4. Salir       \n";
     cin >> genero;
 
     // Paso 3: Mostrar los zapatos disponibles según el género
 
     if (genero > 3 or genero < 0)
     {
-        cout << "Los datos no son validos \n";
+        cout << "Decidio salir \n";
     }
     else if (genero == 1)
     {
@@ -175,6 +176,8 @@ int main()
         break;
     case 3:
         break;
+
+        
 */
     default:
         break;
