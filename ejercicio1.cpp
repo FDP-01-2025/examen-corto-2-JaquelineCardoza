@@ -85,8 +85,36 @@ int main()
     }
     switch (zapatoSelec)
     {
-        //Paso 4: Verificar si el usuario tiene suficiente dinero para comprar el zapato seleccionado
+        // Paso 4: Verificar si el usuario tiene suficiente dinero para comprar el zapato seleccionado
     case 1:
+        cout << "Has seleccionado: Zapato Deportivo\n";
+        cout << "El total a pagar con descuentos es: $ " << zap1h << endl;
+
+        cout << "Compra realizada con exito\n";
+        cout << "Su saldo actual es: $ " << money - zap1h << endl;
+
+        cout << "Gracias por su compra";
+        break;
+
+    case 2:
+        cout << "Has seleccionado: Zapato Formal\n";
+        cout << "El total a pagar con descuentos es: $ " << zap2h << endl;
+
+        cout << "Compra realizada con exito\n";
+        cout << "Su saldo actual es: $ " << money - zap2h << endl;
+
+        cout << "Gracias por su compra";
+        break;
+    case 3:
+        cout << "Has seleccionado: Zapato Premiun\n";
+        cout << "El total a pagar con descuentos es: $ " << zap3h << endl;
+
+        cout << "Compra realizada con exito\n";
+        cout << "Su saldo actual es: $ " << money - zap3h << endl;
+
+        cout << "Gracias por su compra";
+        break;
+    /*
         if (genero == 1)
         {
             cout << "Has seleccionado: Zapato Deportivo\n";
@@ -97,17 +125,27 @@ int main()
 
             cout << "Gracias por su compra";
         }
-        else if(genero == 2)
+        else if (genero == 1 && zapatoSelec == 2)
         {
             cout << "Has seleccionado: Zapato Formal\n";
-            cout << "El total a pagar con descuentos es: $ " << zap1m << endl;
+            cout << "El total a pagar con descuentos es: $ " << zap2h << endl;
 
             cout << "Compra realizada con exito\n";
-            cout << "Su saldo actual es: $ " << money - zap1m << endl;
+            cout << "Su saldo actual es: $ " << money - zap2h << endl;
 
             cout << "Gracias por su compra";
         }
-        
+        else if (genero == 1 && zapatoSelec == 3)
+        {
+            cout << "Has seleccionado: Zapato Premiun\n";
+            cout << "El total a pagar con descuentos es: $ " << zap3h << endl;
+
+            cout << "Compra realizada con exito\n";
+            cout << "Su saldo actual es: $ " << money - zap3h << endl;
+
+            cout << "Gracias por su compra";
+        }
+
         break;
     case 2:
 
@@ -133,69 +171,11 @@ int main()
         }
         else
         {
-            switch (zapatoSelec)
-            {
-            case 1:
-                cout << "Has seleccionado: Zapato Deportivo\n";
-                cout << "El total a pagar con descuentos es: $ " << zap1h << endl;
-
-                cout << "Compra realizada con exito\n";
-                cout << "Su saldo actual es: $ " << money - zap1h << endl;
-
-                cout << "Gracias por su compra";
-                break;
-
-            case 2:
-                cout << "Has seleccionado: Zapato Formal\n";
-                cout << "El total a pagar con descuentos es: $ " << zap2h << endl;
-
-                cout << "Compra realizada con exito\n";
-                cout << "Su saldo actual es: $ " << money - zap2h << endl;
-
-                cout << "Gracias por su compra";
-                break;
-            case 3:
-                cout << "Has seleccionado: Zapato Premiun\n";
-                cout << "El total a pagar con descuentos es: $ " << zap3h << endl;
-
-                cout << "Compra realizada con exito\n";
-                cout << "Su saldo actual es: $ " << money - zap3h << endl;
-
-                cout << "Gracias por su compra";
-                break;
-            case 4:
-                cout << "Has seleccionado: Zapato Casual\n";
-                cout << "El total a pagar con descuentos es: $ " << zap1m << endl;
-
-                cout << "Compra realizada con exito\n";
-                cout << "Su saldo actual es: $ " << money - zap1m << endl;
-
-                cout << "Gracias por su compra";
-                break;
-            case 5:
-                cout << "Has seleccionado: Zapato Elegante\n";
-                cout << "El total a pagar con descuentos es: $ " << zap2m << endl;
-
-                cout << "Compra realizada con exito\n";
-                cout << "Su saldo actual es: $ " << money - zap2m << endl;
-
-                cout << "Gracias por su compra";
-                break;
-            case 6:
-                cout << "Has seleccionado: Zapato Premiun mujer\n";
-                cout << "El total a pagar con descuentos es: $ " << zap3m << endl;
-
-                cout << "No se puede realizar su compra, por fondos insuficientes \n";
-
-                cout << "Gracias por su compra";
-                break;
-            default:
-                break;
-            }
         }
         break;
-   
-
+    case 3:
+        break;
+*/
     default:
         break;
     }
